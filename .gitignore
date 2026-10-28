@@ -1,0 +1,33 @@
+# PlantAssist-X .gitignore
+
+# 构建产物
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rtefacts/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# 临时与日志
+*.log
+tmp/
+*.tmp
+
+# 凭证与密钥（永不提交）
+*.pfx
+*.p12
+*.key
+secrets/
+*.credential
+
+# OS
+Thumbs.db
+desktop.ini
