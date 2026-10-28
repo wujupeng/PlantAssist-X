@@ -19,6 +19,7 @@
 | E-P0-01-05 | P0-01 | OS 兼容性矩阵 | evidence/p0-01/os-compatibility-matrix.md | 2026-10-28 | 部分实测 |
 | E-P0-01-06 | P0-01 | 限制清单 | evidence/p0-01/limitations.md | 2026-10-28 | L-01~L-06 |
 | E-P0-01-07 | P0-01 | 验收结论 | evidence/p0-01/acceptance.md | 2026-10-28 | CONDITIONAL PASS |
+| E-P0-01-08 | P0-01 | U-01 阻塞报告 | evidence/p0-01/u01-blocked-report.md | 2026-10-29 | BLOCKED |
 
 ## P0-02 屏幕采集
 
