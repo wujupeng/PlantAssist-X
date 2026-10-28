@@ -1,0 +1,36 @@
+{
+  "collected_at": "2026-10-28T16:30:00+08:00",
+  "sessions": {
+    "query_session_raw": "services  Session 0  断开 | console  hunt  Session 1  运行中 | rdp-tcp  Session 65536  侦听",
+    "session_0": {"id": 0, "name": "services", "state": "断开", "process_count": 155, "has_interactive_desktop": false},
+    "session_1": {"id": 1, "name": "console", "user": "hunt", "state": "运行中", "process_count": 150, "has_interactive_desktop": true},
+    "dwm_processes": [{"pid": 1584, "session": 1}],
+    "explorer_processes": [{"pid": 11576, "session": 1}],
+    "isolation_confirmed": true,
+    "isolation_evidence": "DWM与Explorer运行于Session1; 155个服务进程运行于Session0; Session0无交互桌面"
+  },
+  "capture_api": {
+    "graphics_capture_type_found": true,
+    "os_build": 26100,
+    "build_ge_18362_graphics_capture_min": true,
+    "build_ge_22621_win11_22h2": true,
+    "note": "Windows.Graphics.Capture.GraphicsCaptureItem 可用 (WinRT)"
+  },
+  "uac_policy": {
+    "enable_lua": 1,
+    "enable_lua_desc": "UAC已启用",
+    "consent_prompt_admin": 0,
+    "consent_prompt_admin_desc": "管理员提权不提示(当前账户已是管理员)",
+    "consent_prompt_user": 3,
+    "prompt_on_secure_desktop": 0,
+    "prompt_on_secure_desktop_desc": "UAC弹窗不在安全桌面显示, 无法在本机实测安全桌面采集边界",
+    "screen_save_active": 1,
+    "screen_save_active_desc": "屏保已启用, 可能触发锁屏"
+  },
+  "zero_residual": {
+    "plantassist_process_count": 0,
+    "plantassist_service_count": 0,
+    "zero_residual_confirmed": true,
+    "note": "P0-01基线: 无PlantAssist进程/服务/监听端口, 作为权限清理验证起点"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collected_at": "2026-10-28T16:30:00+08:00",
+  "environment": {
+    "os_caption": "Microsoft Windows 11 专业版",
+    "os_version": "10.0.26100",
+    "os_build": "26100",
+    "os_release": "24H2",
+    "os_arch": "64-bit",
+    "last_boot": "2026-10-14T17:18:45",
+    "manufacturer": "Dell Inc.",
+    "model": "Inspiron 14 Plus 7440",
+    "total_memory_mb": 16069,
+    "cpu_name": "12th Gen Intel(R) Core(TM) i5-12450H",
+    "gpus": [
+      {"name": "OrayIddDriver Device", "driver": "17.50.19.949", "vram_mb": 0, "note": "向日葵虚拟显示驱动(第三方远控)"},
+      {"name": "Intel(R) UHD Graphics", "driver": "32.0.101.7085", "vram_mb": 2048, "note": "主显卡 1920x1080@60Hz"}
+    ],
+    "hotfixes": [
+      {"id": "KB5127647", "installed": "2026-10-14", "desc": "Security Update"},
+      {"id": "KB5127648", "installed": "2026-10-14", "desc": "Security Update"},
+      {"id": "KB5127690", "installed": "2026-10-14", "desc": "Update"}
+    ],
+    "display": {"screen_count": 1, "width": 1920, "height": 1080, "refresh_rate": 60, "dpi": 96, "scale": "100%"},
+    "network": {"interface": "vEthernet (wan)", "ipv4": "192.168.2.17", "gateway": "192.168.2.254"},
+    "firewall": {"domain": true, "private": true, "public": true},
+    "current_user": "hunt",
+    "user_domain": "HUNT",
+    "computer_name": "HUNT"
+  }
+}
