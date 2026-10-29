@@ -23,6 +23,9 @@
 | E-P0-01-09 | P0-01 | U-01 远程验证脚本 | evidence/p0-01/run_u01_remote.py | 2026-10-29 | 可复用 |
 | E-P0-01-10 | P0-01 | U-01 目标机实测数据 | evidence/p0-01/u01-win10-result.json | 2026-10-29 | Win11 26200 实测 |
 | E-P0-01-11 | P0-01 | U-01 补充报告 | evidence/p0-01/u01-supplemental-report.md | 2026-10-29 | U-01仍BLOCKED+U-03环境已识别 |
+| E-P0-01-12 | P0-01 | U-01 Win10 验证脚本 | evidence/p0-01/run_u01_win10.py | 2026-10-29 | 可复现 |
+| E-P0-01-13 | P0-01 | U-01 Win10 22H2 实测数据 | evidence/p0-01/u01-win10-22h2-result.json | 2026-10-29 | Win10 19045 实测 |
+| E-P0-01-14 | P0-01 | U-01 Win10 22H2 验收报告 | evidence/p0-01/u01-win10-22h2-acceptance.md | 2026-10-29 | PASS (待PM裁定) |
 
 ## P0-02 屏幕采集
 

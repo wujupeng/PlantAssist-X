@@ -1,0 +1,139 @@
+{
+  "collected_at": "2026-10-29T10:45:10.7539326+08:00",
+  "machine": "IPSEC",
+  "os": {
+    "caption": "Microsoft Windows 10 ???",
+    "version": "10.0.19045",
+    "build": "19045",
+    "arch": "64 ?",
+    "last_boot": "2026-10-26T16:48:15.7776890+08:00"
+  },
+  "computer": {
+    "manufacturer": "Microsoft Corporation",
+    "model": "Virtual Machine",
+    "memory_mb": 2844
+  },
+  "cpu": {
+    "name": "Intel(R) Core(TM) i7-14700"
+  },
+  "gpus": [
+    {
+      "vram_mb": 0,
+      "name": "Microsoft Hyper-V Video",
+      "driver": "10.0.19041.3636"
+    }
+  ],
+  "hotfixes": [
+    {
+      "id": "KB5126256",
+      "installed": "2026-09-21T00:00:00.0000000",
+      "desc": "Security Update"
+    },
+    {
+      "id": "KB5071982",
+      "installed": "2026-09-21T00:00:00.0000000",
+      "desc": "Security Update"
+    },
+    {
+      "id": "KB5066790",
+      "installed": "2026-09-21T00:00:00.0000000",
+      "desc": "Security Update"
+    },
+    {
+      "id": "KB5071959",
+      "installed": "2026-09-21T00:00:00.0000000",
+      "desc": "Security Update"
+    },
+    {
+      "id": "KB5011050",
+      "installed": "2026-09-21T00:00:00.0000000",
+      "desc": "Update"
+    },
+    {
+      "id": "KB5066130",
+      "installed": "2026-09-21T00:00:00.0000000",
+      "desc": "Update"
+    },
+    {
+      "id": "KB5033052",
+      "installed": "2026-09-15T00:00:00.0000000",
+      "desc": "Update"
+    },
+    {
+      "id": "KB5011048",
+      "installed": "2026-09-15T00:00:00.0000000",
+      "desc": "Update"
+    },
+    {
+      "id": "KB5066135",
+      "installed": "2026-09-15T00:00:00.0000000",
+      "desc": "Update"
+    },
+    {
+      "id": "KB5020683",
+      "installed": "2026-08-19T00:00:00.0000000",
+      "desc": "Update"
+    }
+  ],
+  "sessions_raw": "SESSIONNAME       USERNAME                 ID  STATE   TYPE        DEVICE \r\n>services                                    0  Disc                        \r\n                   dell                      1  Disc                        \r\n console                                     2  Conn                        \r\n 31c5ce94259d4...                        65536  Listen                      \r\n rdp-tcp                                 65537  Listen",
+  "process_session_distribution": [
+    {
+      "count": 57,
+      "session_id": "0"
+    },
+    {
+      "count": 36,
+      "session_id": "1"
+    },
+    {
+      "count": 5,
+      "session_id": "2"
+    }
+  ],
+  "dwm": [
+    {
+      "session": 1,
+      "pid": 1396
+    },
+    {
+      "session": 2,
+      "pid": 2824
+    }
+  ],
+  "explorer": [
+    {
+      "session": 1,
+      "pid": 5572
+    },
+    {
+      "session": 1,
+      "pid": 5804
+    }
+  ],
+  "graphics_capture": {
+    "type_found": true,
+    "build_ge_18362": true
+  },
+  "uac": {
+    "enable_lua": 1,
+    "consent_prompt_admin": 5,
+    "prompt_on_secure_desktop": 1
+  },
+  "screen_saver": {
+    "active": "1"
+  },
+  "display": {
+    "error": "query_failed"
+  },
+  "zero_residual": {
+    "process_count": 0,
+    "service_count": 0,
+    "confirmed": true
+  },
+  "session_isolation": {
+    "session0_process_count": 57,
+    "session1_process_count": 36,
+    "dwm_in_session1": true,
+    "isolation_confirmed": true
+  }
+}
