@@ -1,0 +1,51 @@
+{
+  "test": "U-03_pretest",
+  "timestamp": "2026-10-29T09:35:30.8421079+08:00",
+  "machine": "SHAREFILESERVER",
+  "uac": {
+    "enable_lua": 1,
+    "consent_prompt_admin": 5,
+    "prompt_on_secure_desktop": 1
+  },
+  "graphics_capture": {
+    "type_found": true
+  },
+  "session_info": {
+    "session_name": null,
+    "user": "DELL",
+    "is_interactive": false
+  },
+  "desktops": [
+    {
+      "setting_id": null,
+      "name": "NT AUTHORITY\\SYSTEM"
+    },
+    {
+      "setting_id": null,
+      "name": "NT AUTHORITY\\LOCAL SERVICE"
+    },
+    {
+      "setting_id": null,
+      "name": "NT AUTHORITY\\NETWORK SERVICE"
+    },
+    {
+      "setting_id": null,
+      "name": "SHAREFILESERVER\\DELL"
+    },
+    {
+      "setting_id": null,
+      "name": ".DEFAULT"
+    }
+  ],
+  "winrm_session": {
+    "is_interactive": false,
+    "note": "WinRM session is non-interactive, cannot trigger UAC popup"
+  },
+  "pretest_conclusion": {
+    "uac_policy_confirmed": true,
+    "full_test_requires_rdp": true,
+    "interactive_session_required": true,
+    "pretest_only": true,
+    "graphics_capture_available": true
+  }
+}
