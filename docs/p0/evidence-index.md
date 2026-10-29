@@ -20,6 +20,9 @@
 | E-P0-01-06 | P0-01 | 限制清单 | evidence/p0-01/limitations.md | 2026-10-28 | L-01~L-06 |
 | E-P0-01-07 | P0-01 | 验收结论 | evidence/p0-01/acceptance.md | 2026-10-28 | CONDITIONAL PASS |
 | E-P0-01-08 | P0-01 | U-01 阻塞报告 | evidence/p0-01/u01-blocked-report.md | 2026-10-29 | BLOCKED |
+| E-P0-01-09 | P0-01 | U-01 远程验证脚本 | evidence/p0-01/run_u01_remote.py | 2026-10-29 | 可复用 |
+| E-P0-01-10 | P0-01 | U-01 目标机实测数据 | evidence/p0-01/u01-win10-result.json | 2026-10-29 | Win11 26200 实测 |
+| E-P0-01-11 | P0-01 | U-01 补充报告 | evidence/p0-01/u01-supplemental-report.md | 2026-10-29 | U-01仍BLOCKED+U-03环境已识别 |
 
 ## P0-02 屏幕采集
 

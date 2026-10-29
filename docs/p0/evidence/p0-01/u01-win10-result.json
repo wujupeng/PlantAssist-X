@@ -1,0 +1,110 @@
+{
+  "collected_at": "2026-10-29T07:58:23.6338235+08:00",
+  "machine": "SHAREFILESERVER",
+  "os": {
+    "caption": "Microsoft Windows 11 ??????",
+    "version": "10.0.26200",
+    "build": "26200",
+    "arch": "64 ?",
+    "last_boot": "2026-10-26T15:11:04.2223740+08:00"
+  },
+  "computer": {
+    "manufacturer": "Microsoft Corporation",
+    "model": "Virtual Machine",
+    "memory_mb": 2761
+  },
+  "cpu": {
+    "name": "Intel(R) Core(TM) i7-14700"
+  },
+  "gpus": [
+    {
+      "vram_mb": 0,
+      "name": "Microsoft Hyper-V Video",
+      "driver": "10.0.26100.1150"
+    }
+  ],
+  "hotfixes": [
+    {
+      "id": "KB5127647",
+      "installed": "2026-10-13T00:00:00.0000000",
+      "desc": "Security Update"
+    },
+    {
+      "id": "KB5127648",
+      "installed": "2026-10-13T00:00:00.0000000",
+      "desc": "Security Update"
+    },
+    {
+      "id": "KB5127690",
+      "installed": "2026-10-13T00:00:00.0000000",
+      "desc": "Update"
+    },
+    {
+      "id": "KB5122035",
+      "installed": "2026-09-02T00:00:00.0000000",
+      "desc": "Update"
+    },
+    {
+      "id": "KB5054156",
+      "installed": "2026-03-06T00:00:00.0000000",
+      "desc": "Update"
+    }
+  ],
+  "sessions_raw": "SESSIONNAME               USERNAME                 ID  STATE   TYPE        DEVICE \r\n>services                                            0  Disc                        \r\n                           DELL                      1  Disc                        \r\n console                                             2  Conn                        \r\n 31c5ce94259d4006a9e4                            65536  Listen                      \r\n rdp-tcp                                         65537  Listen",
+  "process_session_distribution": [
+    {
+      "count": 108,
+      "session_id": "0"
+    },
+    {
+      "count": 37,
+      "session_id": "1"
+    },
+    {
+      "count": 5,
+      "session_id": "2"
+    }
+  ],
+  "dwm": [
+    {
+      "session": 1,
+      "pid": 1748
+    },
+    {
+      "session": 2,
+      "pid": 10272
+    }
+  ],
+  "explorer": [
+    {
+      "session": 1,
+      "pid": 6996
+    }
+  ],
+  "graphics_capture": {
+    "type_found": true,
+    "build_ge_18362": true
+  },
+  "uac": {
+    "enable_lua": 1,
+    "consent_prompt_admin": 5,
+    "prompt_on_secure_desktop": 1
+  },
+  "screen_saver": {
+    "active": "1"
+  },
+  "display": {
+    "error": "query_failed"
+  },
+  "zero_residual": {
+    "process_count": 0,
+    "service_count": 0,
+    "confirmed": true
+  },
+  "session_isolation": {
+    "session0_process_count": 108,
+    "session1_process_count": 37,
+    "dwm_in_session1": true,
+    "isolation_confirmed": true
+  }
+}
