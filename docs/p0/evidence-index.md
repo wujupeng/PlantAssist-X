@@ -25,13 +25,14 @@
 | E-P0-01-11 | P0-01 | U-01 补充报告 | evidence/p0-01/u01-supplemental-report.md | 2026-10-29 | U-01仍BLOCKED+U-03环境已识别 |
 | E-P0-01-12 | P0-01 | U-01 Win10 验证脚本 | evidence/p0-01/run_u01_win10.py | 2026-10-29 | 可复现 |
 | E-P0-01-13 | P0-01 | U-01 Win10 22H2 实测数据 | evidence/p0-01/u01-win10-22h2-result.json | 2026-10-29 | Win10 19045 实测 |
-| E-P0-01-14 | P0-01 | U-01 Win10 22H2 验收报告 | evidence/p0-01/u01-win10-22h2-acceptance.md | 2026-10-29 | PASS (待PM裁定) |
+| E-P0-01-14 | P0-01 | U-01 Win10 22H2 验收报告 | evidence/p0-01/u01-win10-22h2-acceptance.md | 2026-10-29 | PASS/CLOSED |
 
 ## P0-02 屏幕采集
 
 | 编号 | 关联任务 | 证据类型 | 文件路径 | 日期 | 结论 |
 | --- | --- | --- | --- | --- | --- |
-| — | — | — | — | — | 待执行 |
+| E-P0-02-01 | P0-02 | 执行计划 | evidence/p0-02/execution-plan.md | 2026-10-29 | 待PM确认 |
+| E-P0-02-02 | P0-02 | 验收模板 | evidence/p0-02/acceptance-template.md | 2026-10-29 | 待执行 |
 
 ## P0-03 输入与授权
 
